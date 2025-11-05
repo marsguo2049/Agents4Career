@@ -34,8 +34,8 @@ Automate the process with a team of AI agents that analyze job descriptions, ide
 - **Greg Lestrade（雷斯垂德警官）** - JD分析师：从招聘方角度分析职位需求  
   **JD Analyst**: Analyzes job descriptions from the recruiter's perspective
 
-- **Sherlock Holmes（夏洛克·福尔摩斯）** - 策略顾问：基于需求分析制定简历策略  
-  **Strategy Consultant**: Develops resume strategies based on requirement analysis
+- **Sherlock Holmes（夏洛克·福尔摩斯）** - 策略顾问：基于Greg报告和cv_kb.md制定简历策略  
+  **Strategy Consultant**: Develops resume strategies based on Greg's report and cv_kb.md
 
 - **Dr. Watson（华生医生）** - CV生成专员：按策略生成定制简历  
   **CV Generator**: Creates tailored resumes following strategic recommendations
