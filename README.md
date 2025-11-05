@@ -5,7 +5,7 @@ A Sherlock Holmes-inspired Multi-Agent System for Job Application Optimization
 
 ---
 
-## 灵感来源 | Inspiration
+## 💡 灵感来源 | Inspiration
 
 受福尔摩斯演绎推理方法的启发，我构建了一个多智能体系统，每个智能体在求职流程中扮演特定角色——就像贝克街221B的角色们协作破案一样。
 
@@ -13,7 +13,7 @@ Inspired by Sherlock Holmes' deductive reasoning method, I built a multi-agent s
 
 ---
 
-## 问题与方案 | Problem & Solution
+## 🎯 问题与方案 | Problem & Solution
 
 **痛点 Pain Point**
 
@@ -29,7 +29,7 @@ Automate the process with a team of AI agents that analyze job descriptions, ide
 
 ---
 
-## Agent团队 | Agent Team
+## 🕵️ Agent团队 | Agent Team
 
 - **Greg Lestrade（雷斯垂德警官）** - JD分析师：从招聘方角度分析职位需求  
   **JD Analyst**: Analyzes job descriptions from the recruiter's perspective
@@ -45,7 +45,7 @@ Automate the process with a team of AI agents that analyze job descriptions, ide
 
 ---
 
-## 工作流程 | Workflow
+## 🔄 工作流程 | Workflow
 ```
 JD → Greg（需求分析 Analysis）→ Sherlock（策略制定 Strategy）→ Watson（CV生成 Generation）→ 定制简历 Tailored Resume
                                                                                       ↓
@@ -54,7 +54,7 @@ JD → Greg（需求分析 Analysis）→ Sherlock（策略制定 Strategy）→
 
 ---
 
-## 文件结构 | Structure
+## 📁 文件结构 | Structure
 ```
 Career/
 ├── cv_kb.md              # 简历知识库 Resume knowledge base
@@ -67,7 +67,7 @@ Career/
 
 ---
 
-## 快速开始 | Quick Start
+## 🚀 快速开始 | Quick Start
 ```bash
 # 1. 分析JD需求 Analyze JD requirements
 "Greg，分析这个JD：JD/公司_岗位.md"
@@ -84,7 +84,7 @@ Career/
 
 ---
 
-## 功能特点 | Features
+## 📋 功能特点 | Features
 
 - ✅ 自动化JD需求分析 Automated JD requirement analysis
 - ✅ 策略化简历定制 Strategic resume customization
@@ -94,7 +94,7 @@ Career/
 
 ---
 
-## 技术栈 | Tech Stack
+## 🛠️ 技术栈 | Tech Stack
 
 - AI智能体（基于Claude） AI Agents (Claude-based)
 - Markdown文档管理 Markdown for documentation
