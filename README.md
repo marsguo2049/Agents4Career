@@ -104,7 +104,7 @@ Career/
 
 ## 📄 许可证 | License
 
-MIT
+Apache-2.0 license
 
 ## 🤝 贡献 | Contributing
 
