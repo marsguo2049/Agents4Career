@@ -40,7 +40,10 @@ Automate the process with a team of AI agents that analyze job descriptions, ide
 - **Dr. Watson（华生医生）** - CV生成专员：按策略生成定制简历  
   **CV Generator**: Creates tailored resumes following strategic recommendations
 
-- **Mrs. Hudson（赫德森太太）** - 知识库管家：维护和更新简历知识库  
+- **Irene Adler（艾琳·艾德勒）** - 面试策略专家：基于前面分析制定面试准备攻略
+  **Interview Strategist**: Creates comprehensive interview preparation guides based on previous analysis
+
+- **Mrs. Hudson（赫德森太太）** - 知识库管家：维护和更新简历知识库
   **Knowledge Keeper**: Maintains and updates the resume knowledge base
 
 ---
@@ -48,6 +51,8 @@ Automate the process with a team of AI agents that analyze job descriptions, ide
 ## 🔄 工作流程 | Workflow
 ```
 JD → Greg（需求分析 Analysis）→ Sherlock（策略制定 Strategy）→ Watson（CV生成 Generation）→ 定制简历 Tailored Resume
+                                                                                      ↓
+ Interview → Irene（面试攻略 Interview Guide）→ 面试准备 Interview Preparation → 面试成功 Success
                                                                                       ↓
                                                                          反馈 Feedback → Hudson（维护 Maintenance）
 ```
@@ -59,10 +64,12 @@ JD → Greg（需求分析 Analysis）→ Sherlock（策略制定 Strategy）→
 Career/
 ├── cv_kb.md              # 简历知识库 Resume knowledge base
 ├── JD/                   # 职位描述 Job descriptions
+├── Interview/            # 面试经验 Interview experiences
 └── reports/
     ├── 01_greg/          # 需求分析报告 Requirement analysis
     ├── 02_sherlock/      # 简历策略 Resume strategies
-    └── 03_watson/        # 生成的CV Generated CVs
+    ├── 03_watson/        # 生成的CV Generated CVs
+    └── 04_irene/         # 面试攻略 Interview guides
 ```
 
 ---
@@ -80,6 +87,10 @@ Career/
 # 3. 生成定制CV Generate tailored CV
 "Watson，根据Sherlock的策略生成CV"
 "Watson, generate CV based on Sherlock's strategy"
+
+# 4. 准备面试 Prepare for interview
+"Irene，基于Greg和Sherlock的报告制定面试攻略"
+"Irene, create interview guide based on Greg and Sherlock's reports"
 ```
 
 ---
@@ -88,6 +99,7 @@ Career/
 
 - ✅ 自动化JD需求分析 Automated JD requirement analysis
 - ✅ 策略化简历定制 Strategic resume customization
+- ✅ 智能化面试准备 Intelligent interview preparation
 - ✅ 标准化输出格式 Consistent output format
 - ✅ 知识库持续积累 Knowledge base accumulation
 - ✅ 反馈循环优化迭代 Feedback loop for continuous improvement
